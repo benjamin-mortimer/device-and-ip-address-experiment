@@ -1,0 +1,12 @@
+<h1>IP address and device information</h1>
+
+<p>This website reads your IP address and information about the device and browser you're using from the http request your browser sent to request this page.</p>
+
+<p>This is a normal thing browsers do, but it's not often visible to users.</p>
+
+<dl>
+    <dt>IP address</dt>
+    <dd><%= @http_x_real_ip %></dd>
+    <dt>User agent</dt>
+    <dd><%= @http_user_agent %></dd>
+</dl>
